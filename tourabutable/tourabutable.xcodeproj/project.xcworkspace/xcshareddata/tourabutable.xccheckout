@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD6FF7DF-F42A-437A-86AC-74BE25E4FF50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tourabutable</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7DE6381073E70CDAA5FBB4CDFA29FD4D0C20262</key>
+		<string>https://github.com/senseiharosso/https---github.com-senseiharosso-tourabutable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tourabutable/tourabutable.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7DE6381073E70CDAA5FBB4CDFA29FD4D0C20262</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/senseiharosso/https---github.com-senseiharosso-tourabutable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7DE6381073E70CDAA5FBB4CDFA29FD4D0C20262</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7DE6381073E70CDAA5FBB4CDFA29FD4D0C20262</string>
+			<key>IDESourceControlWCCName</key>
+			<string>https---github.com-senseiharosso-tourabutable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
