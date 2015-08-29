@@ -94,5 +94,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var len: CGFloat = self.topLayoutGuide.length;
         self.tableView.contentInset = UIEdgeInsets(top: len,left: 0,bottom: 0,right: 0)
     }
+    
+    // Cell が選択された場合
+    func tableView(table: UITableView, didSelectRowAtIndexPath indexPath:NSIndexPath) {
+        // DetailViewController へ遷移するために Segue を呼び出す
+        performSegueWithIdentifier("toDetailViewController",sender: nil)
+    }
+    
+    // Segue 準備
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "toDetailViewController") {
+        }
+    }
 }
 

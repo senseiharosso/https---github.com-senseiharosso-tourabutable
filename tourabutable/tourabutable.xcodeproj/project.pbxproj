@@ -13,6 +13,7 @@
 		FF7FCAF81B9087DF00C3F2C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7FCAF71B9087DF00C3F2C2 /* Images.xcassets */; };
 		FF7FCAFB1B9087DF00C3F2C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7FCAF91B9087DF00C3F2C2 /* LaunchScreen.xib */; };
 		FF7FCB071B9087DF00C3F2C2 /* tourabutableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7FCB061B9087DF00C3F2C2 /* tourabutableTests.swift */; };
+		FF7FCB171B91A81800C3F2C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7FCB161B91A81800C3F2C2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FF7FCB001B9087DF00C3F2C2 /* tourabutableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tourabutableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7FCB051B9087DF00C3F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7FCB061B9087DF00C3F2C2 /* tourabutableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tourabutableTests.swift; sourceTree = "<group>"; };
+		FF7FCB161B91A81800C3F2C2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,8 @@
 		FF7FCAED1B9087DE00C3F2C2 /* tourabutable */ = {
 			isa = PBXGroup;
 			children = (
+				FF7FCB151B91A80200C3F2C2 /* View */,
 				FF7FCAF01B9087DE00C3F2C2 /* AppDelegate.swift */,
-				FF7FCAF21B9087DF00C3F2C2 /* ViewController.swift */,
-				FF7FCAF41B9087DF00C3F2C2 /* Main.storyboard */,
 				FF7FCAF71B9087DF00C3F2C2 /* Images.xcassets */,
 				FF7FCAF91B9087DF00C3F2C2 /* LaunchScreen.xib */,
 				FF7FCAEE1B9087DE00C3F2C2 /* Supporting Files */,
@@ -110,6 +111,16 @@
 				FF7FCB051B9087DF00C3F2C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF7FCB151B91A80200C3F2C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF7FCAF41B9087DF00C3F2C2 /* Main.storyboard */,
+				FF7FCAF21B9087DF00C3F2C2 /* ViewController.swift */,
+				FF7FCB161B91A81800C3F2C2 /* DetailViewController.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7FCB171B91A81800C3F2C2 /* DetailViewController.swift in Sources */,
 				FF7FCAF31B9087DF00C3F2C2 /* ViewController.swift in Sources */,
 				FF7FCAF11B9087DE00C3F2C2 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +421,7 @@
 				FF7FCB0C1B9087DF00C3F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7FCB0D1B9087DF00C3F2C2 /* Build configuration list for PBXNativeTarget "tourabutableTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				FF7FCB0F1B9087DF00C3F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

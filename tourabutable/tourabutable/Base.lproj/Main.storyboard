@@ -25,10 +25,29 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="5Pq-VM-chl" id="mh5-YH-gLg"/>
+                        <segue destination="arp-kI-vlq" kind="presentation" identifier="toDetailViewController" id="ZkD-gN-Ow9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="n2U-yn-o2D">
+            <objects>
+                <viewController id="arp-kI-vlq" customClass="DetailViewController" customModule="tourabutable" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qLE-4u-Jim">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="9cD-3z-f1L"/>
+                    <connections>
+                        <outlet property="tableView" destination="qLE-4u-Jim" id="JKk-OZ-fIG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JoV-kG-hlr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="315"/>
         </scene>
     </scenes>
 </document>
